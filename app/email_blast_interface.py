@@ -35,6 +35,9 @@ if authenticate(): # (enable in prod)
         emails
 
     send = st.button("Send All")
+    st.text_input("Email for DNC")
+    dnc = st.button("Add to DNC")
+
 
     st.subheader("See below for an example of html text to update")
     st.write("""
